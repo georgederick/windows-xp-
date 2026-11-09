@@ -1,0 +1,38 @@
+.calc{padding:8px;display:flex;flex-direction:column;gap:6px;height:100%}
+.cd{height:34px;background:#fff;border:2px inset #aaa;text-align:right;padding:4px 6px;font:19px "Lucida Console",monospace;overflow:hidden;white-space:nowrap}
+.r1,.g5{display:grid;gap:4px}
+.r1{grid-template-columns:repeat(3,1fr)}
+.g5{grid-template-columns:repeat(5,1fr);flex:1}
+.calc button{min-width:0!important;padding:0!important;height:100%!important;min-height:28px;font:bold 13px Tahoma!important}
+.calc .n{color:#0000c8}
+.calc .o{color:#c80000}
+.ttt,.gs{display:flex;flex-direction:column;gap:8px;padding:10px;height:100%}
+.row{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.st{font:bold 13px Tahoma;text-align:center;min-height:18px;color:#0a246a}
+.board{flex:1;min-height:150px;display:grid;grid-template:repeat(3,1fr)/repeat(3,1fr);gap:4px;background:#0a246a;padding:4px;border:2px inset #ccc}
+.cell{background:linear-gradient(#fff,#dfe7f7);display:flex;align-items:center;justify-content:center;font:bold min(12vmin,54px) Tahoma;cursor:pointer}
+.cell:hover{background:#fff6d1}
+.cell.X{color:#d22}
+.cell.O{color:#14c}
+.cell.w{background:#b9f0a8}
+.sco{text-align:center;font-weight:bold;white-space:pre-wrap}
+.snk{display:flex;flex-direction:column;height:100%;background:#000}
+.snk .bar{display:flex;gap:4px;padding:5px;background:#ece9d8;flex-wrap:wrap;align-items:center}
+.snk .info{display:flex;justify-content:space-between;padding:3px 8px;background:#0a246a;color:#fff;font-weight:bold}
+.cv{flex:1;min-height:0;position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#222}
+.cv canvas{display:block}
+.gm{min-height:36px;padding:8px;background:#fff;border:2px inset #ccc;font-weight:bold;text-align:center;color:#0a246a;display:flex;align-items:center;justify-content:center}
+.gs input{width:110px;height:22px;padding:0 4px;border:1px solid #7f9db9}
+.hist{flex:1;min-height:60px;overflow:auto;background:#fff;border:2px inset #ccc;padding:4px;font-family:"Lucida Console",monospace}
+.hist div{padding:1px 0}
+.pad{padding:12px;display:flex;flex-direction:column;gap:12px}
+fieldset{border:1px solid #aca899;border-radius:3px;padding:10px}
+.fl{display:flex;flex-wrap:wrap;gap:10px;padding:14px;align-content:flex-start;background:#fff;height:100%}
+.fi{width:96px;text-align:center;padding:4px}
+.fi svg{width:36px;height:36px;margin:0 auto 3px}
+.fi.sel span{background:#316ac5;color:#fff}
+.fi span{display:inline-block;padding:1px 3px}
+.empty{background:#fff;height:100%;display:flex;align-items:center;justify-content:center;color:#666;font-size:12px}
+.doc{padding:14px;background:#fff;height:100%;line-height:1.6;overflow:auto}
+.sres{background:#fff;border:2px inset #ccc;margin-top:8px;flex:1;overflow:auto}
+.sres .si{padding:4px 8px}
